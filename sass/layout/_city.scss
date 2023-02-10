@@ -1,0 +1,24 @@
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #EAEAEA;
+    padding: 1rem;
+    color: #353535;
+    & i {
+    font-size: 1.5rem;
+    position: relative;
+    }
+
+    & input {
+    border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: -40px;
+    text-align: center;
+    background: #EAEAEA;
+    color: #353535;
+    }
+}
